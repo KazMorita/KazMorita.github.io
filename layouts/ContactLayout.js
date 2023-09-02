@@ -3,7 +3,7 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 
 // export default function AuthorLayout({ children, frontMatter }) {
-export default function SimpleMDX({ children, frontMatter }) {
+export default function ContactLayout({ children, frontMatter }) {
   // const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
   // const { pagetitle, name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
   const { pagetitle} = frontMatter
@@ -38,6 +38,7 @@ export default function SimpleMDX({ children, frontMatter }) {
         {/*     </div> */}
         {/*   </div> */}
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
+          {/* <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2 space-y-1">{children}</div> */}
         {/* </div> */}
       </div>
     </>
