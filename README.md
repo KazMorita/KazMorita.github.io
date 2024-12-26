@@ -1,5 +1,5 @@
 ## hosted url
-- [https://kazmorita.github.com](https://kazmorita.github.com)
+- [https://kazmorita.github.io](https://kazmorita.github.io)
 
 ## Special thanks to
 - [Next.js](https://github.com/vercel/next.js)
